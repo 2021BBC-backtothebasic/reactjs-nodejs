@@ -1,14 +1,11 @@
 import { Box } from '@mui/system';
 import Button from '@mui/material/Button';
 import {Outlet, Link} from 'react-router-dom';
+import TemplatesBlock from "./Template";
 
 const BoardLayout = () => {
     return (
         <>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
             <nav>
                 <ul className='tabs'>
                         <Box sx={{ display: 'flex', justifyContent: 'right' }}>

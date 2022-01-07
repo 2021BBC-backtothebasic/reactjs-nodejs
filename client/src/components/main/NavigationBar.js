@@ -119,7 +119,7 @@ export default function NavigationBar() {
     return (
 
       <Box>
-      {['roadmap', 'discover', 'gallery', 'sign up'].map((menuOption) => (
+      {['roadmap', 'discover', 'board', 'sign up'].map((menuOption) => (
   
         <MenuItem> 
 
@@ -157,7 +157,7 @@ export default function NavigationBar() {
             <Tabs className={classes.tabsContainer}>
               <Tab label="Roadmap" component={Link} to={"/"} />
               <Tab label="Discover"component={Link} to={"/discover"} />
-              <Tab label="Gallery" component={Link} to={"/gallery"} />
+              <Tab label="board" component={Link} to={"/board"} />
               <Tab label="Signup"  component={Link} to={"/signup"} />
             </Tabs>
 

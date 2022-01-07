@@ -16,10 +16,11 @@ const Router = () => {
   return (
     <BrowserRouter>
       <NavigationBar />
+      <br /><br /><br /><br />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/discover" element={<Discover />} />
-        <Route exact path="/gallery" element={<Gallery />} />
+        <Route exact path="/board" element={<BoardList />} />
         <Route exact path="/signup" element={<Signup />} />
         <Route path="*" element={<NoPage />} />
 

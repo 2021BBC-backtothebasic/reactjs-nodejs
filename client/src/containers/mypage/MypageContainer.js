@@ -13,7 +13,7 @@ export default function MypageContainer() {
                 <Headrow />
                 <MypageList />    
             </ Template>
-            <Footer />
+            
         </div>
     )
 }
